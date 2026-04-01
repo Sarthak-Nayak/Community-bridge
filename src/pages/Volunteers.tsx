@@ -12,7 +12,7 @@ import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { SKILLS, DAYS, WARDS } from '@/lib/mockData';
 import { Plus, Trophy, MapPin, Car, Calendar } from 'lucide-react';
 import { motion } from 'framer-motion';
-
+ 
 export default function Volunteers() {
   const { volunteers, addVolunteer } = useApp();
   const [showForm, setShowForm] = useState(false);
